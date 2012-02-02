@@ -1,0 +1,18 @@
+{
+    "watch": true,
+    "compress": true,
+    "scripts": {
+        "output": "media/scripts/all.js",
+        "input": [
+            "media/scripts/jquery.min.js",
+            "media/scripts/main.js"
+        ]
+    },
+    "styles": {
+        "output": "media/styles/all.css",
+        "input": [
+            "media/styles/bootstrap.min.css",
+            "media/styles/main.css"
+        ]
+    }
+}
