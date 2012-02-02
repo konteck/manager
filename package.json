@@ -1,5 +1,5 @@
 {
-    "name": "buildjs",
+    "name": "manager",
     "description": "Node.JS app lifecycle manager",
     "keywords": ["production", "development", "deployment", "javascript", "css", "minify", "build"],
     "version": "1.0.1",
