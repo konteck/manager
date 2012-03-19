@@ -1,18 +1,32 @@
 {
     "watch": true,
-    "compress": true,
-    "scripts": {
-        "output": "media/scripts/all.js",
-        "input": [
-            "media/scripts/jquery.min.js",
-            "media/scripts/main.js"
-        ]
+    "workers": 2,
+    "js": {
+        "all": {
+            "watch": true,
+            "compress": false,
+            "output": {
+                "./media/cache": "/cache"
+            },
+            "input": [
+                "./media/scripts/jquery.min.js",
+                "./media/scripts/jquery.tools.min.js",
+                "./media/scripts/bootstrap.min.js",
+                "./media/scripts/common.js"
+            ]
+        }
     },
-    "styles": {
-        "output": "media/styles/all.css",
-        "input": [
-            "media/styles/bootstrap.min.css",
-            "media/styles/main.css"
-        ]
+    "css": {
+        "all": {
+            "watch": true,
+            "compress": false,
+            "output": {
+                "./media/cache": "/cache"
+            },
+            "input": [
+                "./media/styles/bootstrap.min.css",
+                "./media/styles/common.css"
+            ]
+        }
     }
 }

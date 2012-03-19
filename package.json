@@ -2,17 +2,17 @@
     "name": "manager",
     "description": "Node.JS app lifecycle manager",
     "keywords": ["production", "development", "deployment", "javascript", "css", "minify", "build"],
-    "version": "1.0.1",
+    "version": "1.0.2",
     "main": "index",
-    "homepage": "http://github.com/konteck/manager",
+    "homepage": "https://github.com/konteck/manager",
     "engines": { "node": ">=0.5.0" },
     "author": {
         "name": "Alex Movsisyan",
-        "url": "http://github.com/konteck/manager"
+        "url": "https://github.com/konteck/manager"
     },
     "repository": {
         "type": "git",
-        "url": "http://github.com/konteck/manager"
+        "url": "https://github.com/konteck/manager"
     },
     "dependencies": {
         "uglify-js": "1.2.x",
@@ -20,6 +20,6 @@
     },
     "licenses" : [{
         "type" : "MIT",
-        "url" : "http://github.com/konteck/manager/LICENSE.txt"
+        "url" : "https://raw.github.com/konteck/manager/master/LICENSE.txt"
     }]
 }
